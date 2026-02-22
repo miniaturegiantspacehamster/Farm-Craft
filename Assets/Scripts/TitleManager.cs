@@ -7,13 +7,13 @@ using UnityEditor;
 public class TitleManager : MonoBehaviour
 {
     // Starts the game
-    public void Start()
+    public void StartGame()
     {
         SceneManager.LoadScene(1);
     }
 
     // Exits the game
-    public void Exit()
+    public void ExitGame()
     {
 #if UNITY_EDITOR
         EditorApplication.ExitPlaymode();
